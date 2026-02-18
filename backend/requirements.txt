@@ -4,3 +4,4 @@ flask-sqlalchemy
 gunicorn
 pymysql
 cryptography
+psycopg2-binary
