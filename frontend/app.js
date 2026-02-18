@@ -1,4 +1,4 @@
-const API_BASE = ""; // leave blank for same-origin hosting
+const API_BASE = "https://alexlakesolo3.onrender.com".replace(/\/$/, ""); // Render backend (Netlify frontend uses cross-origin)
 
 let currentPage = 1;
 let totalPages = 1;
