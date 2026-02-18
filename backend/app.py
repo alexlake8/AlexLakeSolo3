@@ -78,7 +78,7 @@ def ensure_db_ready():
     # Simple "class project" approach:
     # - Creates tables automatically
     # - Seeds at least 30 records if empty
-    #db.create_all()
+    db.create_all()
     seed_if_empty()
 
 
