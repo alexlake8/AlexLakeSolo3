@@ -280,6 +280,9 @@ def stats():
 def health():
     return jsonify({"ok": True})
 
+@app.get("/")
+def home():
+    return {"message": "Backend is running. Try /health or /api/..."}
 
 if __name__ == "__main__":
     import os
