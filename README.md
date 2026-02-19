@@ -27,4 +27,4 @@ Push new code to GitHub
 Netlify and Render auto redeploy the frontend and backend
 (note: if the backend has gone idle for too long, render may need to be manually redeployed)
 
-env vars are configured in the hosting provider
+secrets/env vars are configured in the hosting provider
